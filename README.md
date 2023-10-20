@@ -2,12 +2,11 @@
 ##Artist: Carol Parris
 
 ###BASIC PLAN:
-* Style Navbar :heavy_check_mark:
+* Style Navbar
 * Make Pages
 * Footer
 * Contact Form
 * Website Animations (disapperating text)
 * netifly
 
-### CHECK LIST:
 
