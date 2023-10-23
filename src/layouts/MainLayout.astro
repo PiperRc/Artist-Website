@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -86,14 +86,37 @@
       <slot />
     </main>
 
+    <footer>
+      <div class="social-media">
+        <a
+          href="https://www.facebook.com/profile.php?id=100007474967047"
+          target="_blank"
+        >
+          <img src="/images/social-icons/facebook.png" alt="facebook-icon" />
+        </a>
+
+        <a href="https://www.instagram.com/carolmparris/" target="_blank">
+          <img src="/images/social-icons/instagram.png" alt="" />
+        </a>
+      </div>
+
+      <div class="copyright">
+        <p>Copyright © All rights reserved.</p>
+      </div>
+    </footer>
+
     <!-- lightgallery -->
     <script src="/js/lightgallery.umd.js" is:inline></script>
 
     <script type="text/javascript">
-      lightGallery(document.getElementById('lightgallery'), {
-       
+      lightGallery(document.getElementById("lightgallery"), {
+        controls: true,
+        closeOnTap: true,
+        showCloseIcon: true,
+        download: false,
       });
-  </script>
+    </script>
+
     <script src="/js/app.js" is:inline></script>
   </body>
 </html>
