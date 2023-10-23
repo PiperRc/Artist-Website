@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* font-family: 'Roboto', sans-serif; */
+
+html{
+    font-size: 62.5%;
+}
+
+.navbar-brand{
+    font-family: 'Playfair Display', serif;
+    font-size: 3rem;
+}
+
+.nav-link{
+    font-size:1.8rem;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* index.html */
+.gallery{
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+}
+
+
+
+.gallery img{
+    height: auto;
+    width:100%;
+}

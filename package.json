@@ -10,6 +10,7 @@
     "astro": "astro"
   },
   "dependencies": {
-    "astro": "^3.3.1"
+    "astro": "^2.10.15",
+    "lightgallery": "^2.7.2"
   }
 }
