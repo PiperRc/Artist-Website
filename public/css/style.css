@@ -7,6 +7,11 @@
 
 html{
     font-size: 62.5%;
+  
+    
+}
+
+main{
     font-family: 'Roboto', sans-serif;
 }
 
@@ -35,6 +40,33 @@ html{
     width:100%;
 }
 
+
+/* about */
+
+.about{
+    padding:2rem;
+}
+
+.about h1{
+    text-align: center;
+    font-style: italic;
+    padding-bottom: 2rem;
+}
+.about img{
+    width: 100%;
+    height: auto;
+}
+
+.about p{
+font-size: 1.4rem;
+padding-top:2.5rem;
+}
+
+#about-gallery img{
+    margin-bottom:1rem;
+}
+
+
 /* footer */
 .social-media{
     display: flex;
@@ -50,6 +82,7 @@ html{
 
 .social-media img{
     width: 100%;
+   
 }
 
 .copyright p{
