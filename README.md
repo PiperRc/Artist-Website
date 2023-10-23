@@ -4,9 +4,10 @@
 ###BASIC PLAN:
 * Style Navbar
 * Make Pages
-* Footer
+* Footer :heavy_check_mark:
 * Contact Form
 * Website Animations (disapperating text)
+* back to top button
 * netifly
 
 
