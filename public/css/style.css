@@ -30,7 +30,8 @@ main{
 
 .home,
 .about,
-.full-gallery{
+.full-gallery,
+.contact{
     padding:1.5rem;
 }
 .home h1,
@@ -76,7 +77,54 @@ padding-top:2.5rem;
     margin-bottom:1rem;
 }
 
+/* contact.html */
+form{
+   
+    background-color: #FFFFF0;
+    padding:1rem;
 
+}
+
+form label,
+form input,
+form textarea{
+    font-size: 1.6rem;
+}
+
+form label{
+    display: block;
+    font-weight: bold;
+    font-style: italic;
+   
+}
+
+form input{
+  
+    width: 100%;
+    margin-bottom:2rem;
+}
+
+form textarea{
+   
+    width: 100%;
+}
+
+form button{
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding:.5rem;
+    border-radius: 5px;
+    background-color: #FFFFF0;
+    cursor: pointer;
+    transition: 300ms ease-in-out;
+    
+
+}
+
+form button:hover{
+    background-color: 	#FFFDD0;
+
+}
 /* footer */
 .social-media{
     display: flex;
