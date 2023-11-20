@@ -28,19 +28,26 @@ main{
 
 /* index.html */
 
+
 .home,
 .about,
 .full-gallery,
 .contact{
     padding:1.5rem;
 }
+
+
 .home h1,
 .about h1,
-.full-gallery h1,
 .contact h1{
     text-align: center;
     font-style: italic;
     padding-bottom: 2rem;
+}
+.home h1,
+.about h1
+{
+    font-family: 'Playfair Display', serif;
 }
 .gallery{
     display: flex;
@@ -55,6 +62,7 @@ main{
     width:100%;
 }
 
+/* about.html */
 
 
 .about img{
@@ -143,4 +151,39 @@ form button:hover{
 
 .create{
     text-align: right;
+}
+
+
+@media screen and (min-width:1000px){
+ /* navbar */
+ .navbar-nav{
+    width:100%;
+    display: flex;
+    justify-content: space-around;
+ }
+
+ /* index.html */
+.gallery{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    gap:2rem;
+}
+
+.about-description{
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+}
+
+
+.about-description p{
+    font-size: 1.8rem;
+    align-self: center;
+    padding:3rem;
+}
+
+.about-description img{
+    border-radius: 5px;
+}
+
 }
