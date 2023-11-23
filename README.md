@@ -10,5 +10,6 @@
 * Website Animations (disapperating text and images)
 * back to top button
 * netifly :heavy_check_mark:
+* lightgallery arrows :heavy_check_mark:
 
 
