@@ -11,5 +11,6 @@
 * back to top button
 * netifly :heavy_check_mark:
 * lightgallery arrows :heavy_check_mark:
+* fix inline js :heavy_check_mark:
 
 
