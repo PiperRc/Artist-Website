@@ -8,9 +8,9 @@
 * Contact Form :heavy_check_mark:
 * Contact Form Verification Process
 * Website Animations (disapperating text and images)
-* back to top button
+* back to top button :heavy_check_mark:
 * netifly :heavy_check_mark:
-* lightgallery arrows :heavy_check_mark:
+* lightgallery arrows 
 * fix inline js
 
 
