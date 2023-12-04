@@ -191,7 +191,7 @@ form button:hover{
     transform:scale(0);
     transition:transform 1s ease;
     transform-origin: left;
-    transition: ease-in-out 1s;
+    transition: ease-in-out 500ms;
 
 }
 .nav-link:hover{
