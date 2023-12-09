@@ -87,6 +87,13 @@ form{
 
 }
 
+form input:focus,
+form textarea:focus{
+outline:2px solid green;
+
+
+}
+
 form label,
 form input,
 form textarea{
