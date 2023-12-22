@@ -32,6 +32,15 @@ main{
 /* index.html */
 
 
+/* scroll */
+.scroll{
+    opacity: 0;
+    transition: .5s ease-in-out;
+}
+
+.scroll.scroll-effect{
+    opacity: 1;
+}
 .home,
 .about,
 .full-gallery,

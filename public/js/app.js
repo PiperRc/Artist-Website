@@ -1,12 +1,4 @@
-// document.addEventListener('DOMContentLoaded',()=>{
-  
-//     const currentUrl=window.location.href;
-// const  navLink=document.querySelectorAll('.nav-link');
-
-//     if(currentUrl){
-// navLink.classList.add('nav-active');
-//     }
-// })
+// back to top button
 
 document.addEventListener("DOMContentLoaded", function() {
     let backToTopButton = document.querySelector(".top");
@@ -23,3 +15,29 @@ document.addEventListener("DOMContentLoaded", function() {
         }
     });
 });
+
+
+// scroll effect
+let options={
+    threshold: 1.0
+}
+
+// create observer
+
+
+const scroll = document.querySelectorAll('.scroll');
+
+const observer = new IntersectionObserver(entries => {
+  entries.forEach(entry => {
+    entry.target.classList.toggle("scroll-effect", entry.isIntersecting)
+    if (entry.isIntersecting) observer.unobserve(entry.target)
+  })
+}, {
+  threshold: .25,
+
+})
+
+scroll.forEach(img => {
+  observer.observe(img)
+})
+
