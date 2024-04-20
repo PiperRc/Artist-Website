@@ -115,18 +115,20 @@ form textarea {
   width: 100%;
 }
 
-form button {
-  font-size: 1.5rem;
-  font-weight: bold;
-  padding: 0.5rem;
-  border-radius: 5px;
-  background-color: #fffff0;
-  cursor: pointer;
-  transition: 300ms ease-in-out;
+
+
+form button{
+  font-size:2rem;
+  font-weight:bold;
+  padding:.5rem;
+  box-shadow:.4rem .4rem blueviolet;
+  transition: 500ms;
 }
 
-form button:hover {
-  background-color: #fffdd0;
+form button:hover{
+  transform: translate(5px,5px);
+  box-shadow: none;
+
 }
 /* footer */
 .social-media {
