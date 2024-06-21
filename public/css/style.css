@@ -28,6 +28,20 @@ main {
   font-family: "Roboto", sans-serif;
 }
 
+.social-nav{
+  padding-top:3rem;
+  text-align: center;
+}
+
+.fa-facebook-f{
+  padding-right:1rem;
+}
+
+.navbar.scrolled {
+  background-color: #fffafa; /* Change to your desired color */
+}
+
+
 /* index.html */
 
 /* scroll */
@@ -181,7 +195,7 @@ form button:hover{
   opacity: 1;
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 800px) {
   /* navbar */
 
   .nav-link::after {
@@ -195,9 +209,7 @@ form button:hover{
     transform-origin: left;
     transition: ease-in-out 500ms;
   }
-  .nav-link:hover {
-    font-weight: bold;
-  }
+ 
 
   .nav-link:hover::after {
     transform: scale(1);
@@ -208,12 +220,28 @@ form button:hover{
     display: flex;
     justify-content: space-around;
   }
+  .nav-item{
+    padding-right:2rem;
+  }
 
   .nav-active {
     /* color:red; */
 
     font-weight: bold;
     transition: ease 1s;
+  }
+
+  .social-nav{
+   padding-top:0;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   transition: 100ms ease-in-out;
+
+  }
+ 
+  .social-nav a:hover{
+    transform: translateY(-.2rem);
   }
 
   /* index.html */
